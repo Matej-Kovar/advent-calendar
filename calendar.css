@@ -10,6 +10,7 @@ body{
         display: flex;
         width: clamp(360px, 57vw, 57vw);
         height: calc(100vh - 80px - 10px - 15px);
+        min-height: 200px;
         flex-wrap: wrap;
         margin-left: 20px;
         margin-right: 20px;
@@ -26,6 +27,7 @@ body{
         display: flex;
         width: 35vw;
         height: calc(100vh - 80px - 10px - 15px - 40px);
+        min-height: 200px;
         flex-wrap: wrap;
         margin-left: 20px;
         margin-right: 20px;
